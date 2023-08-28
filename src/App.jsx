@@ -40,7 +40,7 @@ function App() {
           using computational methods to classify and quantify the emotional
           tone expressed in text data.
         </h4>
-        <h2>Upload text</h2>
+        {/* <h2>Upload text</h2> */}
         <textarea
           type="textarea"
           onChange={(e) => setText(e.target.value)}
@@ -48,6 +48,7 @@ function App() {
           className="textarea textarea-primary m-2 textbox text-lg"
           ref={textAreaRef}
           rows={1}
+          placeholder="Upload the text you want analysed here"
         ></textarea>
         <button className="btn btn-primary text-center" onClick={handleSubmit}>
           Submit
