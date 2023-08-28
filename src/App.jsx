@@ -33,7 +33,8 @@ function App() {
   return (
     <div className="App">
       <main className="prose container mx-auto flex flex-col items-center">
-        <h1 className="mt-4">Sentiment Analysis</h1>
+        <h1 className="mt-6 mb-0">Sentimentool</h1>
+        <h2>A Sentiment Analyis web-app.</h2>
         <h4 className="text-center">
           Sentiment analysis, a branch of natural language processing, involves
           using computational methods to classify and quantify the emotional
