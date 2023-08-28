@@ -24,10 +24,13 @@ function App() {
     }
     const data = sentiment.analyze(text);
     setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setAnalysis(data);
-    }, text.length * 15);
+    setTimeout(
+      () => {
+        setLoading(false);
+        setAnalysis(data);
+      },
+      text.length < 25 ? text.length * 15 : 4000
+    );
   }
 
   return (
