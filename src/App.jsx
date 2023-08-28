@@ -45,7 +45,7 @@ function App() {
           type="textarea"
           onChange={(e) => setText(e.target.value)}
           value={text}
-          className="textarea textarea-primary m-2 textbox"
+          className="textarea textarea-primary m-2 textbox text-lg"
           ref={textAreaRef}
           rows={1}
         ></textarea>
