@@ -75,7 +75,7 @@ function App() {
               max="10"
             ></progress>
             <h2>Why?</h2>
-            <p>
+            <p className="text-center">
               Our program gave this{" "}
               {score < -1
                 ? "poor score as there was a high frequency of negative words"
@@ -108,7 +108,7 @@ function App() {
                 </tbody>
               </table>
             </div>
-            <p>
+            <p className="text-center">
               The algorithm works by assigning a sentiment score to each word.
               Most words are neutral so don't get a score. Each score is between
               -5 and 5. After, we sum up the scores, we then divide by the total
