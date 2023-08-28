@@ -126,7 +126,10 @@ function App() {
         <div>
           <p>
             Developed by Daniel Fostiak. Code @
-            <a className="link link-primary ">
+            <a
+              href="https://github.com/danielfostiak/sentimentanalysis"
+              className="link link-primary "
+            >
               https://github.com/danielfostiak/sentimentanalysis
             </a>
           </p>
