@@ -29,8 +29,9 @@ function App() {
         setLoading(false);
         setAnalysis(data);
       },
-      text.length < 25 ? text.length * 15 : 4000
+      text.length < 10 ? text.length * 10 : 1000
     );
+    // setAnalysis(data);
   }
 
   return (
